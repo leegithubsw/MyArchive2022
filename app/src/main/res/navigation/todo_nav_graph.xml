@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/todo_nav_graph.xml"
+    app:startDestination="@id/todofragment">
+
+    <fragment
+        android:id="@+id/todofragment"
+        android:name="com.example.myarchive2022.fragments.TodoFragment"
+        android:label="fragment_todo" />
+
+    <fragment
+        android:id="@+id/boanfragment"
+        android:name="com.example.myarchive2022.fragments.BoanFragment"
+        android:label="BoanFragment" />
+    <fragment
+        android:id="@+id/calendarfragment"
+        android:name="com.example.myarchive2022.fragments.CalendarFragment"
+        android:label="CalendarFragment" />
+    <fragment
+        android:id="@+id/memofragment"
+        android:name="com.example.myarchive2022.fragments.MemoFragment"
+        android:label="MemoFragment" />
+
+</navigation>

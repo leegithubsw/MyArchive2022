@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">MyArchive2022</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_boan">Boan</string>
+    <string name="menu_pass">Pass</string>
+    <string name="menu_todo">Todo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo_fragment">Todo_fragment</string>
+    <string name="pass_fragment">pass_fragment</string>
+    <string name="calendar_fragment">calendar_fragment</string>
+    <string name="boan_fragment">boan_fragment</string>
+    <string name="menu_memo">Memo</string>
 </resources>

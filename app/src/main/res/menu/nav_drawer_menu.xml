@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/calendarfragment"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/menu_calendar" />
+        <item
+            android:id="@+id/todofragment"
+            android:icon="@drawable/ic_todo"
+            android:title="@string/menu_todo" />
+
+    </group>
+
+    <item android:title="etc">
+        <menu>
+            <item
+                android:id="@+id/boanfragment"
+                android:icon="@drawable/ic_person"
+                android:title="@string/menu_boan" />
+            <item
+                android:id="@+id/memofragment"
+                android:icon="@drawable/ic_memo"
+                android:title="@string/menu_memo" />
+        </menu>
+    </item>
+</menu>
